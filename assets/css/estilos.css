@@ -1,9 +1,73 @@
-
-
-
-.container-fluid{
-    background-color: rgba(40, 167, 69, 1);
+/* NAVBAR */
+.navbar {
+    background-color: #28a745 !important; /* Verde Bootstrap */
 }
-.navbar-brand{
-    
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* CARD */
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+.card-footer small {
+    font-weight: 600;
+}
+
+/* Eliminar línea debajo de precio actual */
+.card-footer small:first-child {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.card-footer small:last-child {
+    color: #28a745;
+}
+
+/* FOOTER */
+footer {
+    background-color: #f8f9fa;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+}
+
+
+form .form-label {
+  font-weight: 600;
+}
+
+textarea,
+input {
+  border-radius: 0.5rem;
+}
+
+.bg-success form input::placeholder {
+  color: #6c757d;
 }
