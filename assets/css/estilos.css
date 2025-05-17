@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* NAVBAR */
 .navbar {
-    background-color: #28a745 !important; /* Verde Bootstrap */
+    background-color: #28A745 !important; /* Verde Bootstrap */
 }
 
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff !important;
+    font-family: Roboto;
 }
 
 .navbar-nav .nav-link {
     color: #fff !important;
     font-weight: 500;
+    font-family: Roboto;
 }
 
 .navbar-nav .nav-link:hover {
@@ -20,34 +25,42 @@
 
 /* CARD */
 .card-title {
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 20px;
     margin-bottom: 0.5rem;
+    font-family: Roboto;
 }
 
 .card-text {
     font-size: 0.9rem;
     color: #333;
+    font-family: Roboto;
 }
 
 .card-footer {
     background-color: #fff;
     border-top: 1px solid #eee;
     font-size: 0.9rem;
+    font-family: Roboto;
 }
 
 .card-footer small {
     font-weight: 600;
+    font-family: Roboto;
 }
 
 /* Eliminar línea debajo de precio actual */
 .card-footer small:first-child {
     color: #999;
     text-decoration: line-through;
+    font-family: Roboto;
+    font-size: 16pt;
+    text-align: right;
 }
 
 .card-footer small:last-child {
-    color: #28a745;
+    color: #28A745;
+    font-family: Roboto;
+    font-size: 20pt;
 }
 
 /* FOOTER */
@@ -56,18 +69,39 @@ footer {
     color: #666;
     font-size: 0.9rem;
     border-top: 1px solid #ddd;
+    font-family: Roboto;
 }
 
 
 form .form-label {
   font-weight: 600;
+  font-family: Roboto;
+  color: #28A745;
 }
 
 textarea,
 input {
   border-radius: 0.5rem;
+  font-family: Roboto;
 }
 
 .bg-success form input::placeholder {
   color: #6c757d;
+  font-family: Roboto light;
+}
+
+.formulario {
+    background-color: #28A745;
+    padding-top: 25px;
+    color: #eee;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+.boton-enviar {
+    font-size: 16px;
+    font-family: Roboto;
+    height: 40px;
+    width: 113px;
+    
 }
